@@ -1,0 +1,132 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.outer-border {
+  border: 3px solid #222;
+  border-radius: 0;
+  margin: 20px auto;
+  max-width: 900px;
+  min-height: 97vh;
+  box-sizing: border-box;
+  padding: 0;
+  background: #fff;
+  position: relative;
+}
+
+header {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.header-line {
+  border: none;
+  border-top: 4px solid #222;
+    width: 75%;
+  margin: 75px 0 28px 10.5%;
+
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.2em;
+  font-weight: 500;
+}
+
+h2 {
+  color: #2e8b57;
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 1.2em;
+  font-weight: 400;
+}
+
+.contact-info address {
+  font-style: normal;
+  margin-bottom: 0.5em;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 0 0 32px 0;
+  box-sizing: border-box;
+}
+
+.section-title {
+  color: #2e8b57;
+  font-size: 1.1rem;
+  margin-top: 1.5em;
+  margin-bottom: 0.7em;
+  font-weight: 500;
+}
+
+.skills p, .education p, .experience p {
+  margin-top: 0.2em;
+  margin-bottom: 0.7em;
+}
+
+h4, .edu-title, .exp-title {
+  color: #1976d2;
+  font-size: 1.02rem;
+  margin-bottom: 0.2em;
+  margin-top: 1.2em;
+  font-weight: 500;
+}
+
+ul {
+  margin-top: 0.2em;
+  margin-bottom: 0.7em;
+  padding-left: 1.2em;
+}
+
+li {
+  margin-bottom: 0.2em;
+}
+
+.internet {
+  margin-top: 2em;
+}
+
+.internet a {
+  color: #1976d2;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+.internet a:hover {
+  text-decoration: underline;
+}
+
+.green {
+  color: #2e8b57;
+}
+
+.blue {
+  color: #1976d2;
+}
+
+@media (max-width: 900px) {
+  .outer-border {
+    max-width: 99vw;
+    margin: 0;
+    border-width: 2px;
+  }
+  header, main {
+    max-width: 98vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+}
