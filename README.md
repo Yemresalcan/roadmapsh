@@ -7,6 +7,7 @@ Welcome! This repository features awesome front-end projects inspired by the [ro
 ## 🚩 Projects List
 
 - [🌟 Single-Page CV](./Front-End/Single-Page%20CV/README.md) — A modern, semantic, and beautiful single-page CV built with HTML & CSS.
+- https://roadmap.sh/projects/single-page-cv
 
 ---
 
